@@ -9,7 +9,7 @@ import javax.persistence.*;
 @Repository
 public class UserRepository {
 
-    @PersistenceUnit(unitName = "Backendtest")
+    @PersistenceUnit(unitName = "Backendexam")
     private EntityManagerFactory entityManagerFactory;
 
     public boolean register(UserDetail newUser) {
